@@ -13,11 +13,11 @@ function startTimer()
 function MessageTrigger() 
 { 
 
-	messageBox = document.querySelectorAll("[contenteditable='true']")[0]; 
+	messageBox = document.querySelectorAll("[contenteditable='true']")[1]; 
 
 	message = "Enter Your Message Body Here";//Your message needs to be placed here, for spaces try using &nbsp eg.. Hardik&nbspBharunt which gives "Hardik Bharunt" as the message
 
-	counter = 10;
+	counter = 100;//Change how many messages to send
 
     for (i = 0; i < counter; i++) 
     { 
